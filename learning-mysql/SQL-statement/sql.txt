@@ -1,0 +1,23 @@
+查询所有数据库
+show databases;
+
+查询当前数据库
+select database();
+
+创建数据库
+create database 数据库名;
+
+例：创建一个code数据库, 使用数据库默认的字符集。
+SQL语句：
+create database code;
+
+例：创建一个sicle数据库，并且指定字符集
+SQL语句：
+create database sicle default charset utf8mb4;
+
+删除数据库
+drop database 数据库名 ;
+
+切换数据库
+use 数据库名 ;
+
