@@ -32,3 +32,29 @@ Java技术体系:
 企业版：Java EE(Java Enterprise Edition);
 
 小企版：Java ME(Java Micro Edition);
+
+
+
+
+
+目前主流的关系型数据库管理系统
+
+Oracle：大型的收费数据库，Oracle公司产品，价格昂贵。
+
+MySQL：开源免费的中小型数据库，后来Sun公司收购了MySQL，而Oracle又收购了Sun公司。
+
+目前Oracle推出了收费版本的MySQL，也提供了免费的社区版本。
+
+SQL Server：Microsoft 公司推出的收费的中型数据库，C#、.net等语言常用。
+
+PostgreSQL：开源免费的中小型数据库。
+
+DB2：IBM公司的大型收费数据库产品。
+
+SQLLite：嵌入式的微型数据库。Android内置的数据库采用的就是该数据库。
+
+MariaDB：开源免费的中小型数据库。是MySQL数据库的另外一个分支、另外一个衍生产品，与MySQL数据库有很好的兼容性。
+
+版本
+
+官方： https://www.mysql.com/
