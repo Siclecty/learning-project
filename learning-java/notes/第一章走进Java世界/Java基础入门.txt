@@ -1,0 +1,60 @@
+Java开发环境的准备：JDK简介、安装、常用命令
+
+如何使用Java:
+Java语言的产品是 JDK（Java Development Kit ：Java开发者工具包) ，必须安装JDK才能使用Java语言;
+JDK(Java Development Kit)开发者工具包;
+
+下载:
+Oracle官网;
+
+验证JDK是否安装成功:
+在命令行窗口中,输入java –version、javac –version看版本号;
+
+Java开发环境最重要的2个命令:
+javac 编译命令、 java 执行命令;
+
+命令行窗口中常用的命令有哪些:
+盘符;dir;cd 路径 ;cls;
+
+开发 Java 程序,需要三个步骤：
+编写代码，编译代码，运行代码;
+
+Java代码编写:
+文件名称的后缀必须是java结尾。
+文件名称必须与代码的类名称一致。
+必须使用英文模式下的符号。
+
+JDK有哪些组成:
+JVM虚拟机：真正运行Java程序的地方。
+核心类库：Java自己写好的一些程序,给咱们的程序调用的。
+开发工具：javac、java、…
+
+Path环境变量
+Path环境变量用于配置程序的路径。
+方便我们在命令行窗口的任意目录启动程序。
+注：
+较新版本的JDK会自动配置PATH环境变量，较老的JDK版本则不会。
+自己配置一下“Path”、 “JAVA_HOME”。
+
+文本编辑工具: 
+记事本 、 UltraEdit 、 EditPlus 、 TextPad 、 NotePad++、sublime..
+存在的问题：
+编写代码时没有错误提醒、没有代码智能提示、需要自己进行编译、执行，功能不够强大。
+
+IntelliJ IDEA：
+一般简称IDEA，是Java编程语言开发的集成环境，在业界被公认为最好的java开发工具。
+IDEA在代码错误提醒，智能代码补全等多方面表现的都非常优秀，是Java开发企业级首选工具。
+
+IDEA的结构
+project - module - package – class。
+project中可以创建多个module。
+module中可以创建多个package。
+package中可以创建多个class。
+
+快捷键
+快速键入相关代码：main/psvm、sout、…
+复制当前行数据到下一行：Ctrl + D
+删除所在行：Ctrl + X
+格式化代码：Ctrl + ALT + L 
+上下移动当前代码：ALT + SHIFT + ↑ , ALT + SHIFT + ↓
+对代码进行注释：Ctrl + / , Ctrl + Shift + / 
