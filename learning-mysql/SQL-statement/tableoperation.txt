@@ -1,0 +1,74 @@
+查询当前数据库所有表
+SQL语句:
+show tables;
+
+查看指定表结构
+SQL语句:
+desc 表名 ;
+
+查询指定表的建表语句
+SQL语句:
+show create table 表名 ;
+
+创建表结构
+SQL语句:
+CREATE TABLE 表名(
+字段1 字段1类型 [ COMMENT 字段1注释 ],
+字段2 字段2类型 [COMMENT 字段2注释 ],
+字段3 字段3类型 [COMMENT 字段3注释 ],
+......
+字段n 字段n类型 [COMMENT 字段n注释 ]
+) [ COMMENT 表注释 ] ;
+
+例：创建一张表 tb_nr
+SQL语句:
+create table tb_nr(
+id int comment '编号',
+name varchar(50) comment '姓名',
+age int comment '年龄',
+gender varchar(1) comment '性别'
+) comment '用户表';
+
+添加字段
+SQL语句:
+ALTER TABLE 表名 ADD 字段名 类型 (长度) [ COMMENT 注释 ] [ 约束 ];
+
+例:
+为emp表增加一个新的字段”昵称”为nick，类型为varchar(20)
+SQL语句:
+ALTER TABLE emp ADD nick varchar(20) COMMENT '昵称';
+
+修改数据类型
+SQL语句:
+ALTER TABLE 表名 MODIFY 字段名 新数据类型 (长度);
+
+例:
+将emp表的nick字段修改为user，类型为varchar(30)
+SQL语句:
+ALTER TABLE emp CHANGE nickname username varchar(30) COMMENT '昵称';
+
+删除字段
+SQL语句:
+ALTER TABLE 表名 DROP 字段名;
+
+例:
+将emp表的字段username删除
+SQL语句:
+ALTER TABLE emp DROP username;
+
+修改表名
+SQL语句：
+ALTER TABLE 表名 RENAME TO 新表名;
+
+删除表
+SQL语句:
+DROP TABLE [ IF EXISTS ] 表名;
+
+例:
+如果s表存在，则删除s表
+SQL语句:
+DROP TABLE IF EXISTS s;
+
+删除指定表, 并重新创建表
+SQL语句:
+TRUNCATE TABLE 表名;
