@@ -47,3 +47,6 @@ boolean类型数组元素的默认值是false、String类型数组元素的默�
 数组使用常见问题:
 如果访问的元素位置超过最大索引，执行时会出现ArrayIndexOutOfBoundsException异常;
 如果数组变量中没有存储数组的地址，而是null, 在访问数组信息时会出现NullPointerException异常;
+
+Debug工具
+IDEA自带的断点调试(排错)工具，可以控制代码从断点开始一行一行的执行，然后详细观看程序执行的情况
